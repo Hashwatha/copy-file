@@ -6,22 +6,33 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Create a file.
 ### Step 2: 
- 
+ Write some lines in that file.
 ### Step 3: 
-
+Create a python file.
 ### Step 4:  
-
+Write a code to copy the content of the file to a new file.
 ### Step 5: 
-
+Run the program.
 ### Step 6: 
-
+Display the output.
 ## PROGRAM:
+```
+Developed by : M.Hashwatha
+RegisterNumber : 23012398
 
+with open("text.txt","r") as f1:
+  with open("copy.txt","w") as f2:
+      line=f1.read()
+      f2.write(line)
+
+```
 ### OUTPUT:
 
+![image](https://github.com/Hashwatha/copy-file/assets/150231431/ecda4003-c282-486f-9c1c-d961845fc1e2)
 
+![image](https://github.com/Hashwatha/copy-file/assets/150231431/973f05b5-0c52-4a95-bd86-bb0ab7cf89c9)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
